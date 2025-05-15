@@ -21,12 +21,6 @@ foundryup
 ```bash
 # Run basic tests
 pnpm contracts:test
-
-# Deploy to local network
-pnpm contracts:deploy:local
-
-# Deploy to Sepolia testnet
-pnpm contracts:deploy:sepolia
 ```
 
 ## Project Structure
@@ -35,18 +29,4 @@ pnpm contracts:deploy:sepolia
 ├── contracts/          # Smart contracts (Foundry)
 │   ├── src/           # Contract source files
 │   ├── test/          # Contract test files
-│   └── script/        # Deployment scripts
-├── client/            # Frontend application
-└── server/            # Backend server
 ```
-
-## Features
-
-- Multi-chain support (Solana, Ethereum, BNB Chain)
-- Wallet integration (Phantom, MetaMask)
-- Smart contract integration
-- Game mechanics implementation
-
-## License
-
-Private - All Rights Reserved
